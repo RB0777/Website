@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background:rgba(190,90,9);
+}
+.header1{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background-color:rgb(104,103,54);
+    color: white;
+    height: 50px;
+    animation-name: ani;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 1;
+    /* z-index: -1; */
+}
+@keyframes ani {
+    0% {
+        opacity:1 ;
+    }
+    50%{
+        opcity:0.5 ;
+    }
+    100% {
+        opacity: 0 ;
+    }
+
+    
+}
+.btn{
+    position: absolute;
+    right: 460px;
+    top: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    height: 30px;
+    width: 80px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 2%;
+}
+
+button:hover{
+    background-color: darkgreen;
+    border:none;
+}
+.header2{
+    background-image: url(./shelby-ireland-GHVBpTkSqfs-unsplash\ \(1\).jpg);
+    height: 650px;
+    width: 100%;
+    background-size:100% 650px;
+    background-attachment: fixed;
+    /* z-index: -2; */
+}
+.nav{
+    position: absolute;
+    top: 100px;
+}
+.PV{
+    width:max-content;
+    border: solid white 2px;
+    background-color: rgba(0, 0, 0, 0.474);
+    color: white;
+    /* height: 40px; */
+    font-size: 20px;
+    margin-left: 30px;
+    border-radius:10px;
+    
+
+}
+.PV ul li{
+    display: inline-block;
+    
+}
+.PV ul li div{
+    height: 50px;
+    width: max-content;
+
+    /* text-align: center;
+    padding-top: 10px; */
+    padding: 10px;
+    box-sizing: border-box;
+}
+.PV ul li:hover div{
+    background-color:rgba(190,90,9) ;
+  
+    /* height:30px; */
+}
+.login{
+    position: absolute;
+    top: 107px;
+    margin-left: 1069px;
+}
+.login1{
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.474);
+    border: solid white 2px;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+    text-align: center;
+    height: 31px;
+    font-weight: bolder;
+}
+.login1:hover{
+    color:rgb(160, 160, 160);
+}
+.search{
+
+    position: absolute;
+    top: 107px;
+    margin-left: 1183px;
+}
+.search1{
+    
+        width: 95px;
+        border: solid white 2px;
+        background-color: rgba(0, 0, 0, 0.474);
+        color: white;
+        font-size: 24px;
+        border-radius: 10px;
+        text-align: center;
+        height: 31px;
+        font-weight: bolder;
+    }
+.text{
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    padding-top: 273px;
+    font-size: 59px;
+    text-shadow:0 0 7px black;
+}
+.discover{
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    padding-top: 22px;
+    font-size: 27px;
+    text-shadow:0 0 5px black;
+}
+.bg{
+    background-color: rgb(155 141 141 / 58%);
+    width:100%;
+    height:850px;
+
+}
+.text,.discover{
+    animation-name: ani1;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    /* border: 5px solid #000; */
+    /* height: 300px; */
+    /* margin-top: 100px; */
+}
+@keyframes ani1 {
+    0%{
+        padding-top: 400px;
+        opacity: 0;
+    }
+    100%{
+        padding-top: 227px;
+        opacity: 1;
+    }
+    
+}
+.newhead{
+    display:  flex;
+    justify-content:space-around;
+    padding-top: 50px;
+}
+.NW{
+    color: black;
+    /* margin-left: 40px; */
+    font-size:60px;
+    
+}
+.newhead button{
+    height: 50px;
+    width: 100px;
+}
+.SN1{
+        background-color: rgba(190,90,9);
+        font-weight: bolder;
+        font-size: 18px;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+.box div{
+    height:400px;
+    width:300px;
+    border: 1px solid #000;
+    
+
+}
+
+.box1{
+    background-image: url(./P1-1.JPG);
+    background-size: 310px 410px;
+    position: relative;
+    
+   
+}
+.box1 div{
+    position: absolute;
+    height:28px;
+    width: max-content;
+    color: white;
+    top: 0px;
+    left: 0px;
+    background-color:rgb(104, 103, 54);
+    text-align: center;
+    padding-top: 13px;
+    border-top: none;
+    border-left: none;
+}
+.box2{
+    background-image: url(./P2-1.JPG);
+    background-size: 310px 410px;
+    position: relative;
+   
+}
+.box2 div{
+    position: absolute;
+    height:28px;
+    width: max-content;
+    color: white;
+    top: 0px;
+    left: 0px;
+    background-color:rgb(104, 103, 54);
+    text-align: center;
+    padding-top: 13px;
+    border-top: none;
+    border-left: none;
+
+}
+    .box3{
+    background-image: url(./P3-1.JPG);
+    background-size: 310px 410px;
+    position: relative;
+}
+.box3 div{
+    position: absolute;
+    height:28px;
+    width: max-content;
+    color: white;
+    top: 0px;
+    left: 0px;
+    background-color:rgb(104, 103, 54);
+    text-align: center;
+    padding-top: 13px;
+    border-top: none;
+    border-left: none;
+}
+
+
+.box4{
+    background-image: url(./P4-1.JPG);
+    background-size: 310px 410px;
+    position: relative;
+   
+}
+.box4 div{
+    position: absolute;
+    height:28px;
+    width: max-content;
+    color: white;
+    top: 0px;
+    left: 0px;
+    background-color:rgb(104, 103, 54);
+    text-align: center;
+    padding-top: 13px;
+    border-top: none;
+    border-left: none;
+}
+
+.box1:hover{
+    background-image: url(./P1-2.JPG);
+}
+.box2:hover{
+    background-image: url(./P2-2.JPG);
+}
+.box3:hover{
+    background-image: url(./P3-2.JPG);
+}
+.box4:hover{
+    background-image: url(./P4-2.JPG);
+}
+.dwn{
+    padding-top:15px;
+    display: flex;
+    justify-content: space-around;
+}
+.dwn1{
+    font-size: 28px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.atc{
+    width:200px;
+    border:1px solid black;
+    font-size: 20px;
+    text-align: center;
+    height: 42px;
+    padding-top: 15px;
+}
+.atc1{
+    display: flex;
+    justify-content: space-around;
+
+}
+.atc:hover{
+    color:rgb(160, 160, 160)
+}
+.bg1{
+    background-color: black;
+    height:1200px;
+    width: 100%;
+    overflow: hidden;
+}
+.sbc{
+    color: white;
+    text-align: center;
+    padding-top: 71px;
+    font-size: 57px;
+}
+.DS{
+    color: white;
+    text-align: center;
+    padding-top: 61px;
+    font-size: 136px;
+    overflow: hidden;
+    
+}
+.DS:hover{
+    transform: scale(1.01);
+    
+}
+
+/*  grid */
+.item1{
+    grid-area: left;
+    /* width: 800px; */
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+.item1 img{
+    transition: all 1s;
+    width: 100%;
+}
+.item1:hover img{
+    transform: scale(1.1);
+}
+.inner{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.638);
+    text-align: center;
+    padding-top: 25%;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.inner:hover{
+    display: none;
+}
+/*  second item2 */
+.item2{
+    grid-area: right;
+    /* width: 400px; */
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+.item2 img{
+    transition: all 1s;
+    width: 100%;
+}
+.item2:hover img{
+    transform: scale(1.1);
+}
+.item3{
+    grid-area: bottom;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+.item3 img{
+    transition: all 1s;
+    width: 100%;
+}
+.item3:hover img{
+    transform: scale(1.1);
+}
+.imagediv{
+    display: grid;
+    grid-template-areas: 'left left right'
+    'left left bottom';
+    /* border: 1px solid white; */
+    grid-gap: 10px;
+    color: white;
+}
+.fern{
+    background-image: url(./fern_grey.JPG);
+    width: 1347px;
+    height:500px;
+    background-size: cover;
+}
